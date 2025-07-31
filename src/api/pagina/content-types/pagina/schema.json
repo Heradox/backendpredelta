@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "singularName": "pagina",
+    "pluralName": "paginas",
+    "displayName": "pagina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo_hero": {
+      "type": "string"
+    },
+    "description_hero": {
+      "type": "blocks"
+    },
+    "imagen_hero": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
